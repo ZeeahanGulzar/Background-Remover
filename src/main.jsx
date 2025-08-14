@@ -3,7 +3,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Background-Remover">
+  <BrowserRouter basename={import.meta.env.MODE === 'production' ? '/Background-Remover' : '/'}>
     <App />
   </BrowserRouter>
 )
