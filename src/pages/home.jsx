@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/header';
 import Steps from '../components/Steps';
 import BackgroundSlider from '../components/BackgroundSlider';
+import Testimonials from '../components/Testimonials';
+import Upload from '../components/Upload';
 
 const home = () => {
   return (
@@ -9,6 +11,8 @@ const home = () => {
         <Header/>
         <Steps/>
         <BackgroundSlider/>
+        <Testimonials/>
+        <Upload/>
     </div>
   )
 }
