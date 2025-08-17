@@ -2,7 +2,9 @@ import React from 'react'
 
 const buyCredit = () => {
   return (
-    <div>buyCredit</div>
+    <div className='min-h-[80vh] text-center pt-14 mb-10'>
+      
+    </div>
   )
 }
 
